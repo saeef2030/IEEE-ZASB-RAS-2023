@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main(){
-    int w =0x3EF110;
-    int *ptr = &w;
+    int k =0x3EF110;
+    int *ptr = &k;
     printf("ptr= %x & *ptr= %x\n",ptr,*ptr);
 
     *ptr++;               //*ptr++ >>>>effectively dereferences the pointer, then increments the pointer<<<<<<<
